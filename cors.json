@@ -1,6 +1,6 @@
 [
   {
-    "origin": ["http://localhost:5174"],
+    "origin": ["http://localhost:5174", "https://galleyts.netlify.app/"],
     "method": ["GET", "POST", "PUT"],
     "maxAgeSeconds": 3600,
     "responseHeader": ["Content-Type", "Authorization"]
