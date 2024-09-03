@@ -1,6 +1,8 @@
 📸 Gallery React - Una Galería de Fotos Impulsada por la Comunidad 🌐
 ¡Bienvenido a Gallery React, donde cada foto cuenta una historia! Sumérgete en esta plataforma comunitaria que no solo te permite subir tus imágenes favoritas, sino que también te invita a explorar, interactuar y conectar con fotos de usuarios de todo el mundo. Ya sea que estés aquí para compartir momentos o descubrir nuevas perspectivas, Gallery React tiene algo especial para ti.
 
+Link Netlify: https://galleyts.netlify.app/
+
 🎨 Características Destacadas
 
 ✨ Subidas Instantáneas de Fotos: Captura y sube tus recuerdos en segundos. Ya sea que tengas una foto guardada en tu dispositivo o quieras tomar una en el momento, Gallery React lo hace fácil.
