@@ -1,10 +1,9 @@
 import React, { useState, useRef } from 'react';
-import { storage, db } from '../services/firebaseConfig';
+import { storage } from '../services/firebaseConfig';
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
-import { addDoc, collection } from 'firebase/firestore';
 
 interface UploadFormProps {
-    onUpload: (newPhoto: any) => void;
+    onUpload: (newPhoto: string) => void;
 }
 
 const UploadForm: React.FC<UploadFormProps> = ({ onUpload }) => {
@@ -12,6 +11,8 @@ const UploadForm: React.FC<UploadFormProps> = ({ onUpload }) => {
     const [progress, setProgress] = useState(0);
     const videoRef = useRef<HTMLVideoElement>(null);
     const [isCameraActive, setIsCameraActive] = useState(false);
+
+    console.log("onUpload: ", onUpload);
 
     const handleUpload = () => {
         if (!file) return;
